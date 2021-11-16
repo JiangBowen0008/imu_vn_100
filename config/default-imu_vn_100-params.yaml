@@ -2,7 +2,7 @@ imu_vn_100:
     ros__parameters:
         port: /dev/ttyUSB0
         frame_id: imu_link
-        imu_rate: 100
+        imu_rate: 200
         initial_baudrate: 115200
         baudrate: 921600
         linear_acceleration_stddev: 0.002257432
@@ -15,7 +15,7 @@ imu_vn_100:
         sync_rate: 20
         sync_pulse_width_us: 1000
         binary_output: true
-        binary_async_mode: 2
+        binary_async_mode: 1
         imu_compensated: false
         vpe:
             enable: true
