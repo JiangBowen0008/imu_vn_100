@@ -11,7 +11,7 @@ imu_vn_100:
         enable_mag: true
         enable_pres: true
         enable_temp: true
-        enable_rpy: false
+        enable_rpy: true
         sync_rate: 20
         sync_pulse_width_us: 1000
         binary_output: true
