@@ -5,8 +5,8 @@ imu_vn_100:
         imu_rate: 200
         initial_baudrate: 115200
         baudrate: 921600
-        linear_acceleration_stddev: 0.002257432
-        angular_velocity_stddev: 0.000977384
+        linear_acceleration_stddev: 0.02
+        angular_velocity_stddev: 0.01
         magnetic_field_stddev: 0.000000198
         enable_mag: true
         enable_pres: true
@@ -19,7 +19,7 @@ imu_vn_100:
         imu_compensated: false
         vpe:
             enable: true
-            heading_mode: 1
+            heading_mode: 2
             filtering_mode: 1
             tuning_mode: 1
             mag_tuning:
